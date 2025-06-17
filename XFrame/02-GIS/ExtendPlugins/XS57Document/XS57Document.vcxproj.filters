@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_XS57DataDoc.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_XS57Document.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_XS57DataDoc.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_XS57Document.cpp" />
+    <ClCompile Include="XS57DataDoc.cpp" />
+    <ClCompile Include="XS57Document.cpp" />
+    <ClCompile Include="XS57FileInfo.cpp" />
+    <ClCompile Include="XS57Reader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XS57DataStructDef.h" />
+    <ClInclude Include="XS57FileInfo.h" />
+    <ClInclude Include="XS57Reader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="XS57Types.h" />
+    <CustomBuild Include="XS57Document.h" />
+    <CustomBuild Include="..\..\..\..\include\ExtendPlugins\S57Document\XS57DataDoc.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+  </ItemGroup>
+</Project>

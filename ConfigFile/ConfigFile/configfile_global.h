@@ -1,0 +1,12 @@
+#ifndef CONFIGFILE_GLOBAL_H
+#define CONFIGFILE_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef CONFIGFILE_LIB
+# define CONFIGFILE_EXPORT Q_DECL_EXPORT
+#else
+# define CONFIGFILE_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // CONFIGFILE_GLOBAL_H

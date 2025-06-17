@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>XTest_GISWndClass</class>
+ <widget class="QMainWindow" name="XTest_GISWndClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>668</width>
+    <height>526</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>电子海图软件</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>668</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="pAcMapPan"/>
+   <addaction name="pAcZoomIn"/>
+   <addaction name="pAcZoomOut"/>
+   <addaction name="pAcFullExtent"/>
+   <addaction name="separator"/>
+   <addaction name="pAcMeasureDis"/>
+   <addaction name="pAcMeasureArea"/>
+   <addaction name="pAcMeasureAngle"/>
+   <addaction name="separator"/>
+   <addaction name="pAcLoadChart"/>
+   <addaction name="pAcUnloadChart"/>
+   <addaction name="pAcChartSearch"/>
+   <addaction name="separator"/>
+   <addaction name="pAcAddJB"/>
+   <addaction name="pAcDynamicTest"/>
+   <addaction name="pAcSaveDraw"/>
+   <addaction name="pAcOpenDraw"/>
+   <addaction name="separator"/>
+   <addaction name="pAcAddPoint"/>
+   <addaction name="pAcAddLine"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="pAcMapPan">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="XTest_GISWnd.qrc">
+     <normaloff>:/XTest_GISWnd/Resources/Icons/mActionPan.svg</normaloff>:/XTest_GISWnd/Resources/Icons/mActionPan.svg</iconset>
+   </property>
+   <property name="text">
+    <string>漫游</string>
+   </property>
+   <property name="toolTip">
+    <string>地图漫游</string>
+   </property>
+  </action>
+  <action name="pAcZoomIn">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="XTest_GISWnd.qrc">
+     <normaloff>:/XTest_GISWnd/Resources/Icons/mActionZoomIn.svg</normaloff>:/XTest_GISWnd/Resources/Icons/mActionZoomIn.svg</iconset>
+   </property>
+   <property name="text">
+    <string>放大</string>
+   </property>
+  </action>
+  <action name="pAcZoomOut">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="XTest_GISWnd.qrc">
+     <normaloff>:/XTest_GISWnd/Resources/Icons/mActionZoomOut.svg</normaloff>:/XTest_GISWnd/Resources/Icons/mActionZoomOut.svg</iconset>
+   </property>
+   <property name="text">
+    <string>缩小</string>
+   </property>
+   <property name="toolTip">
+    <string>地图缩小</string>
+   </property>
+  </action>
+  <action name="pAcMeasureDis">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="XTest_GISWnd.qrc">
+     <normaloff>:/XTest_GISWnd/Resources/Icons/mActionMeasure.svg</normaloff>:/XTest_GISWnd/Resources/Icons/mActionMeasure.svg</iconset>
+   </property>
+   <property name="text">
+    <string>距离测量</string>
+   </property>
+  </action>
+  <action name="pAcFullExtent">
+   <property name="icon">
+    <iconset resource="XTest_GISWnd.qrc">
+     <normaloff>:/XTest_GISWnd/Resources/Icons/mActionZoomFullExtent.svg</normaloff>:/XTest_GISWnd/Resources/Icons/mActionZoomFullExtent.svg</iconset>
+   </property>
+   <property name="text">
+    <string>全图</string>
+   </property>
+   <property name="toolTip">
+    <string>地图全貌</string>
+   </property>
+  </action>
+  <action name="pAcAddLine">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="XTest_GISWnd.qrc">
+     <normaloff>:/XTest_GISWnd/Resources/Icons/mActionCaptureLine.svg</normaloff>:/XTest_GISWnd/Resources/Icons/mActionCaptureLine.svg</iconset>
+   </property>
+   <property name="text">
+    <string>添加线段</string>
+   </property>
+   <property name="toolTip">
+    <string>添加线段要素</string>
+   </property>
+  </action>
+  <action name="pAcAddPoint">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="XTest_GISWnd.qrc">
+     <normaloff>:/XTest_GISWnd/Resources/Icons/mActionCapturePoint.svg</normaloff>:/XTest_GISWnd/Resources/Icons/mActionCapturePoint.svg</iconset>
+   </property>
+   <property name="text">
+    <string>添加点</string>
+   </property>
+  </action>
+  <action name="pAcAddPolygon">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="XTest_GISWnd.qrc">
+     <normaloff>:/XTest_GISWnd/Resources/Icons/mActionCapturePolygon.svg</normaloff>:/XTest_GISWnd/Resources/Icons/mActionCapturePolygon.svg</iconset>
+   </property>
+   <property name="text">
+    <string>添加多边形</string>
+   </property>
+   <property name="toolTip">
+    <string>添加多边形</string>
+   </property>
+  </action>
+  <action name="pAcMeasureArea">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="XTest_GISWnd.qrc">
+     <normaloff>:/XTest_GISWnd/Resources/Icons/mActionMeasureArea.svg</normaloff>:/XTest_GISWnd/Resources/Icons/mActionMeasureArea.svg</iconset>
+   </property>
+   <property name="text">
+    <string>面积测量</string>
+   </property>
+   <property name="toolTip">
+    <string>面积测量</string>
+   </property>
+  </action>
+  <action name="pAcMeasureAngle">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="XTest_GISWnd.qrc">
+     <normaloff>:/XTest_GISWnd/Resources/Icons/mActionMeasureAngle.svg</normaloff>:/XTest_GISWnd/Resources/Icons/mActionMeasureAngle.svg</iconset>
+   </property>
+   <property name="text">
+    <string>角度测量</string>
+   </property>
+   <property name="toolTip">
+    <string>角度测量</string>
+   </property>
+  </action>
+  <action name="pAcAddJB">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="XTest_GISWnd.qrc">
+     <normaloff>:/XTest_GISWnd/Resources/Icons/mActionAddJB.svg</normaloff>:/XTest_GISWnd/Resources/Icons/mActionAddJB.svg</iconset>
+   </property>
+   <property name="text">
+    <string>标绘</string>
+   </property>
+   <property name="toolTip">
+    <string>态势标绘</string>
+   </property>
+  </action>
+  <action name="pAcLoadChart">
+   <property name="icon">
+    <iconset resource="XTest_GISWnd.qrc">
+     <normaloff>:/XTest_GISWnd/Resources/Icons/mActionUnloadChart.svg</normaloff>:/XTest_GISWnd/Resources/Icons/mActionUnloadChart.svg</iconset>
+   </property>
+   <property name="text">
+    <string>加载海图</string>
+   </property>
+  </action>
+  <action name="pAcUnloadChart">
+   <property name="icon">
+    <iconset resource="XTest_GISWnd.qrc">
+     <normaloff>:/XTest_GISWnd/Resources/Icons/mActionLoadChart.svg</normaloff>:/XTest_GISWnd/Resources/Icons/mActionLoadChart.svg</iconset>
+   </property>
+   <property name="text">
+    <string>卸载海图</string>
+   </property>
+  </action>
+  <action name="pAcChartSearch">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="XTest_GISWnd.qrc">
+     <normaloff>:/XTest_GISWnd/Resources/Icons/mActionWhatsThis.svg</normaloff>:/XTest_GISWnd/Resources/Icons/mActionWhatsThis.svg</iconset>
+   </property>
+   <property name="text">
+    <string>海图查询</string>
+   </property>
+   <property name="toolTip">
+    <string>海图属性查询</string>
+   </property>
+  </action>
+  <action name="pAcDynamicTest">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="XTest_GISWnd.qrc">
+     <normaloff>:/XTest_GISWnd/Resources/Icons/mActionDyTest.svg</normaloff>:/XTest_GISWnd/Resources/Icons/mActionDyTest.svg</iconset>
+   </property>
+   <property name="text">
+    <string>动态测试</string>
+   </property>
+   <property name="toolTip">
+    <string>动态测试</string>
+   </property>
+  </action>
+  <action name="pAcSaveDraw">
+   <property name="icon">
+    <iconset resource="XTest_GISWnd.qrc">
+     <normaloff>:/XTest_GISWnd/Resources/Icons/mActionFileSave.svg</normaloff>:/XTest_GISWnd/Resources/Icons/mActionFileSave.svg</iconset>
+   </property>
+   <property name="text">
+    <string>保存态势文件</string>
+   </property>
+   <property name="toolTip">
+    <string>保存态势</string>
+   </property>
+  </action>
+  <action name="pAcOpenDraw">
+   <property name="icon">
+    <iconset resource="XTest_GISWnd.qrc">
+     <normaloff>:/XTest_GISWnd/Resources/Icons/mActionFileOpen.svg</normaloff>:/XTest_GISWnd/Resources/Icons/mActionFileOpen.svg</iconset>
+   </property>
+   <property name="text">
+    <string>打开态势文件</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="XTest_GISWnd.qrc"/>
+ </resources>
+ <connections/>
+</ui>

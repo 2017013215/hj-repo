@@ -1,0 +1,7 @@
+OS:Windows7
+VS:2010 SP1
+Qt:4.8.6
+osg:OpenSceneGraph-3.2.1
+osgearth:osgearth-2.7
+
+

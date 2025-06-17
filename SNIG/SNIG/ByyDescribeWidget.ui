@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ByyDescribeWidget</class>
+ <widget class="QWidget" name="ByyDescribeWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>625</width>
+    <height>514</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ByyDescribeWidget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QListWidget#mOptionsListWidget {
+	background-color: rgb(69, 69, 69, 220);
+	outline: 0;
+}
+QListWidget#mOptionsListWidget::item {
+		    color: white;
+		    padding: 3px;
+}
+	QListWidget#mOptionsListWidget::item::selected {
+		   color: black;
+		   background-color:palette(Window);
+		   padding-right: 0px;
+};</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="documentMode">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

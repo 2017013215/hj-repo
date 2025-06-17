@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ByyDetectTargetWidget</class>
+ <widget class="QWidget" name="ByyDetectTargetWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>695</width>
+    <height>274</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>目标列表显示</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QTableWidget" name="tableWidget">
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <row>
+      <property name="text">
+       <string>新建行</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>新建行</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>新建行</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>新建行</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>新建行</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>新建行</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>新建行</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>更新时间</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>目标批号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>目标ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>目标名称</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>来源</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>目标识别等级</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>敌我属性</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>目标类型</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>威胁等级</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>目标位置</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>速度大小(m/s)</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>航向(deg)</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>目标距离(m)</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>高低角(deg)</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>方位角(deg)</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>辐射源类型</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>辐射源功率(KW)</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>辐射源频率(Hz)</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>辐射源脉宽(s)</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>辐射源重频(Hz)</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>辐射源信号类型</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>辐射源信号脉冲调制类型</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

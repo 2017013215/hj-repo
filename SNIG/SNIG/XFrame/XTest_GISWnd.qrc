@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/XTest_GISWnd">
+        <file>Resources/Icons/mActionPan.svg</file>
+        <file>Resources/Icons/mActionZoomIn.svg</file>
+        <file>Resources/Icons/mActionZoomOut.svg</file>
+        <file>Resources/Icons/mActionMeasure.svg</file>
+        <file>Resources/Icons/mActionMeasureAngle.svg</file>
+        <file>Resources/Icons/mActionMeasureArea.svg</file>
+        <file>Resources/Icons/mActionZoomFullExtent.svg</file>
+        <file>Resources/Icons/mActionCaptureLine.svg</file>
+        <file>Resources/Icons/mActionCapturePoint.svg</file>
+        <file>Resources/Icons/mActionCapturePolygon.svg</file>
+        <file>Resources/Icons/mActionAddJB.svg</file>
+        <file>Resources/Icons/mActionLoadChart.svg</file>
+        <file>Resources/Icons/mActionUnloadChart.svg</file>
+        <file>Resources/Icons/mActionWhatsThis.svg</file>
+        <file>Resources/Icons/mActionDyTest.svg</file>
+        <file>Resources/Icons/mActionFileOpen.svg</file>
+        <file>Resources/Icons/mActionFileSave.svg</file>
+        <file>Resources/Icons/mActionAddBasicCircle.svg</file>
+        <file>Resources/Icons/mActionAddBasicRectangle.svg</file>
+        <file>Resources/Icons/mActionAddBasicShape.svg</file>
+    </qresource>
+</RCC>

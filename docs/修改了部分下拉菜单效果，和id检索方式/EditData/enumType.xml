@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="GB2312"?>
+<enums>
+	<rsm>
+		<enum name="AutoShipECM" description="是否自动电子战（0-否、1-是）" sourceInfo="">
+			<value name="是">1</value>
+			<value name="否">0</value>
+		</enum>
+		<enum name="AMDDecisionType" description="拦截决策类型（1-人工、2半自动、3-全自动）" sourceInfo="">
+			<value name="人工">1</value>
+			<value name="半自动">2</value>
+			<value name="全自动">3</value>
+		</enum>
+		<enum name="Side" description="敌我属性" sourceInfo="">
+			<value name="其他">0</value>
+			<value name="红方">1</value>
+			<value name="蓝方">2</value>
+			<value name="中立">3</value>
+		</enum>
+		<enum name="Inherited" description="继承上级(0否、1是, 默认为1)" sourceInfo="">
+			<value name="是">1</value>
+			<value name="否">0</value>
+		</enum>
+		<enum name="EngageWithTargetsAt" description="与哪一类目标交战" sourceInfo="">
+			<value name="继承上级">-1</value>
+			<value name="不明">0</value>
+			<value name="友好">1</value>
+			<value name="中立">2</value>
+			<value name="不友好">3</value>
+			<value name="敌意">4</value>
+		</enum>
+		<enum name="FireClass" description="开火等级" sourceInfo="">
+			<value name="继承上级">-1</value>
+			<value name="主动开火">1</value>
+			<value name="遭受攻击后开火">2</value>
+			<value name="不开火">3</value>
+		</enum>
+		<enum name="EMCONClass" description="电磁管控等级" sourceInfo="">
+			<value name="-1">-1</value>
+			<value name="A">1</value>
+			<value name="B">2</value>
+			<value name="C">3</value>
+			<value name="D">4</value>
+		</enum>
+		<enum name="RadarEMCON" description="雷达管控" sourceInfo="">
+			<value name="继承上级">-1</value>
+			<value name="关闭">0</value>
+			<value name="开启">1</value>
+		</enum>
+		<enum name="OECMEMCON" description="主动干扰机管控" sourceInfo="">
+			<value name="继承上级">-1</value>
+			<value name="关闭">0</value>
+			<value name="开启">1</value>
+		</enum>
+		<enum name="SonarEMCON" description="声纳管控" sourceInfo="">
+			<value name="继承上级">-1</value>
+			<value name="关闭">0</value>
+			<value name="开启">1</value>
+		</enum>
+		<enum name="CommEMCON" description="通信管控" sourceInfo="">
+			<value name="继承上级">-1</value>
+			<value name="关闭">0</value>
+			<value name="开启">1</value>
+		</enum>
+		<enum name="RTBWhen" description="返航时机" sourceInfo="">
+			<value name="继承上级">-1</value>
+			<value name="油量仅够返航时">1</value>
+			<value name="武器使用完">2</value>
+			<value name="任务结束">3</value>
+		</enum>
+		<enum name="MoveToTarget" description="是否向目标机动" sourceInfo="">
+			<value name="继承上级">-1</value>
+			<value name="否">0</value>
+			<value name="是">1</value>
+		</enum>
+		<enum name="Embarkation" description="是否搭载" sourceInfo="">
+			<value name="无效">-1</value>
+			<value name="否">0</value>
+			<value name="是">1</value>
+		</enum>
+		<enum name="EmbarkedEntityName" description="载体名称" sourceInfo="INNER_ENTITY_FRIEND"/>
+	</rsm>
+	
+	<task>
+		<enum name="PowerOn"  description="开关机指令（0关、1开）" sourceInfo="">
+			<value name="关">0</value>
+			<value name="开">1</value>
+		</enum>		
+		<enum name="EquipmentType"  description="设备类型(1-传感器、2-干扰机、3-武器系统、4-通信设备、5-)" sourceInfo="">
+			<value name="传感器">1</value>
+			<value name="干扰机">2</value>
+			<value name="武器系统">3</value>
+			<value name="通信设备">4</value>
+			<value name="XX设备">5</value>
+		</enum>
+		<enum name="JamTaskType"  description="干扰任务类型" sourceInfo="">
+			<value name="SEAD">1</value>
+			<value name="自卫干扰">2</value>
+			<value name="支援干扰">3</value>
+			<value name="通信干扰">4</value>
+			<value name="GPS干扰">5</value>
+			<value name="水声干扰">6</value>
+		</enum>	
+		<enum name="JamMeasureType"  description="干扰任务类型" sourceInfo="">
+			<value name="自动选择">1</value>
+			<value name="OnboardActiveJam">2</value>
+			<value name="OffboardActiveDecoyJam">3</value>
+			<value name="OffboardPassiveJam">4</value>
+			<value name="Mixed">5</value>
+		</enum>		
+		<enum name="TargetAsignType"  description="目标指定方式" sourceInfo="">
+			<value name="不指定">1</value>
+			<value name="名称">2</value>
+			<value name="ID">3</value>
+		</enum>		
+		<enum name="AreaType"  description="干扰区域类型" sourceInfo="">
+			<value name="不指定">1</value>
+			<value name="多点路线">2</value>
+			<value name="多点区域">3</value>
+		</enum>		
+		<enum name="AssignCtrlObjName_Id"  description="指定控制对象的方式,名称或Id" sourceInfo="">
+			<value name="不指定">1</value>
+			<value name="名称">2</value>
+			<value name="ID">3</value>
+			<value name="直接给定区域位置描述数据">4</value>
+		</enum>	
+		<enum name="ControlObjName"  description="路线或区域控制对象名称" sourceInfo="INNER_CTRL"/>
+		<enum name="JamTargetID"  description="干扰目标ID" sourceInfo="INNER_ENTITY_FRIEND"/>
+		<enum name="JamTargetID"  description="干扰目标ID" sourceInfo="INNER_ENTITY_HOSTILE"/>
+		<enum name="EquipmentName"  description="设备名称" sourceInfo="INNER_DEV_SENSOR"/>
+	</task>
+</enums>

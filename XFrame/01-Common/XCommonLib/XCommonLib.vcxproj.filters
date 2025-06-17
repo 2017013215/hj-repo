@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{1e5ce543-585b-422f-b5e8-766a228706d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="坐标转换">
+      <UniqueIdentifier>{aa890e00-1d6c-4828-a9ce-996784b4fbb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基对象">
+      <UniqueIdentifier>{906620dd-ba62-4b07-a948-3938f785fdc3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\Common\XCommonLib.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Common\XObject.h">
+      <Filter>基对象</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Common\XCoordinateNSE.h">
+      <Filter>坐标转换</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Common\XCoordinateCentric.h">
+      <Filter>坐标转换</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Common\XCoordinateGeo.h">
+      <Filter>坐标转换</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Common\XArchive.h">
+      <Filter>基对象</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Common\XRuntimeClass.h">
+      <Filter>基对象</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Common\XDocument.h">
+      <Filter>基对象</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Common\XMemPool.h">
+      <Filter>基对象</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XObject.cpp">
+      <Filter>基对象</Filter>
+    </ClCompile>
+    <ClCompile Include="XCoordinateCentric.cpp">
+      <Filter>坐标转换</Filter>
+    </ClCompile>
+    <ClCompile Include="XCoordinateGeo.cpp">
+      <Filter>坐标转换</Filter>
+    </ClCompile>
+    <ClCompile Include="XCoordinateNSE.cpp">
+      <Filter>坐标转换</Filter>
+    </ClCompile>
+    <ClCompile Include="XArchive.cpp">
+      <Filter>基对象</Filter>
+    </ClCompile>
+    <ClCompile Include="XRuntimeClass.cpp">
+      <Filter>基对象</Filter>
+    </ClCompile>
+    <ClCompile Include="XDocument.cpp">
+      <Filter>基对象</Filter>
+    </ClCompile>
+    <ClCompile Include="XMemPool.cpp">
+      <Filter>基对象</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

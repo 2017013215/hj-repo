@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_XLoadLayerFeatureThread.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_XS57LayerAdapter.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_XLoadLayerFeatureThread.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_XS57LayerAdapter.cpp" />
+    <ClCompile Include="XImageMarkerSymbolLayerV2.cpp" />
+    <ClCompile Include="XLoadLayerFeatureThread.cpp" />
+    <ClCompile Include="XSymbolStyle.cpp" />
+    <ClCompile Include="XS52Lib.cpp">
+      <Filter>S52符号库</Filter>
+    </ClCompile>
+    <ClCompile Include="XLookupTAB.cpp">
+      <Filter>S52符号库</Filter>
+    </ClCompile>
+    <ClCompile Include="XPatternsStyle.cpp">
+      <Filter>S52符号库</Filter>
+    </ClCompile>
+    <ClCompile Include="XLineStyle.cpp">
+      <Filter>S52符号库</Filter>
+    </ClCompile>
+    <ClCompile Include="XColorTable.cpp">
+      <Filter>S52符号库</Filter>
+    </ClCompile>
+    <ClCompile Include="XS57LayerAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XImageMarkerSymbolLayerV2.h" />
+    <ClInclude Include="XSymbolStyle.h" />
+    <ClInclude Include="XS52Lib.h">
+      <Filter>S52符号库</Filter>
+    </ClInclude>
+    <ClInclude Include="XLookupTAB.h">
+      <Filter>S52符号库</Filter>
+    </ClInclude>
+    <ClInclude Include="XPatternsStyle.h">
+      <Filter>S52符号库</Filter>
+    </ClInclude>
+    <ClInclude Include="XLineStyle.h">
+      <Filter>S52符号库</Filter>
+    </ClInclude>
+    <ClInclude Include="XColorTable.h">
+      <Filter>S52符号库</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\ExtendPlugins\XGISAdapterForS57\XTypeDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="XLoadLayerFeatureThread.h" />
+    <CustomBuild Include="..\..\..\..\include\ExtendPlugins\XGISAdapterForS57\XS57LayerAdapter.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="S52符号库">
+      <UniqueIdentifier>{12269ce6-b738-4f9d-86ea-062f402135b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+  </ItemGroup>
+</Project>

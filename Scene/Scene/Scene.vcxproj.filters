@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{309359c2-a517-4326-be99-9cab0bfb2d4f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{d159f6ef-4967-40d5-ae72-d8db08b09229}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\SceneObject">
+      <UniqueIdentifier>{bc2aa8cd-c346-4d3b-8d7e-ab52c52a1a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SceneObject">
+      <UniqueIdentifier>{38a52071-6aa7-4384-b829-b8ceceb56249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ObjectCreator">
+      <UniqueIdentifier>{e086732a-0bff-4b76-a5f2-7e74b8119637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ObjectEditor">
+      <UniqueIdentifier>{2573ac67-f8f8-40d7-9070-ef541db5ea05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ObjectCreator">
+      <UniqueIdentifier>{4da9e206-3514-456b-af5f-abb436290258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ObjectEditor">
+      <UniqueIdentifier>{7164ec7c-aafa-47be-ab42-5655a6ec14e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Visualizer">
+      <UniqueIdentifier>{a2933fef-7e43-4b47-8082-d66aabe4fb12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Visualizer">
+      <UniqueIdentifier>{656733b4-e81f-4d1b-81ce-5e77954f482a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ars">
+      <UniqueIdentifier>{ee27c5a3-95c4-45c7-b06a-a5a640ffc996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ars">
+      <UniqueIdentifier>{83532f08-10e6-4154-b924-20bc200f2f16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="earthManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sandBoxComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snapshoot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="annotationComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraAnimationComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="animationPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="altitudeCullingCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textBrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneObjectManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="osgFileCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fltEntityVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="terrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="channelCompass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="terrainEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modelPlacer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_terrain.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_terrain.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sceneObjectManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sceneObjectManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sandBoxComponent.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sandBoxComponent.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_prop.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_prop.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cameraAnimationComponent.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_cameraAnimationComponent.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_annotationComponent.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_annotationComponent.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sceneWayPoint.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sceneWayPoint.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sceneRoute.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sceneRoute.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_scenePolygon.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_scenePolygon.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sceneEntity.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sceneEntity.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sceneEllipse.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sceneEllipse.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sceneControlObject.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sceneControlObject.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sceneCircle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sceneCircle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_modelPlacer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_modelPlacer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="clipPlaneCullCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_soundManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_soundManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="entitySettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_entitySettings.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_entitySettings.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="audioSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_audioSettings.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_audioSettings.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="stereoSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_stereoSettings.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_stereoSettings.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="tacticalGraphicsProcesser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_tacticalGraphicsProcesser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_tacticalGraphicsProcesser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sceneObject.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sceneObject.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="observerSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_observerSettings.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_observerSettings.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="entityInfoWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_scenePhaseLine.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_scenePhaseLine.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="tacticalGraphicsCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_tacticalGraphicsCreator.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_tacticalGraphicsCreator.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_pointSetCreator.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_pointSetCreator.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_waypointCreator.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_waypointCreator.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="circleEditor.cpp">
+      <Filter>Source Files\ObjectEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="circleCreator.cpp">
+      <Filter>Source Files\ObjectCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="ellipseCreator.cpp">
+      <Filter>Source Files\ObjectCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="ellipseEditor.cpp">
+      <Filter>Source Files\ObjectEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="fineArrowCreator.cpp">
+      <Filter>Source Files\ObjectCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="phaseLineCreator.cpp">
+      <Filter>Source Files\ObjectCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="phaseLineEditor.cpp">
+      <Filter>Source Files\ObjectEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="pointSetCreator.cpp">
+      <Filter>Source Files\ObjectCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="polygonCreator.cpp">
+      <Filter>Source Files\ObjectCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangleCreator.cpp">
+      <Filter>Source Files\ObjectCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangleEditor.cpp">
+      <Filter>Source Files\ObjectEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="routeCreator.cpp">
+      <Filter>Source Files\ObjectCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneEllipse.cpp">
+      <Filter>Source Files\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneFineArrow.cpp">
+      <Filter>Source Files\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneEntity.cpp">
+      <Filter>Source Files\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneControlObject.cpp">
+      <Filter>Source Files\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneCircle.cpp">
+      <Filter>Source Files\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneObject.cpp">
+      <Filter>Source Files\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="scenePhaseLine.cpp">
+      <Filter>Source Files\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneRectangle.cpp">
+      <Filter>Source Files\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneWayPoint.cpp">
+      <Filter>Source Files\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneRoute.cpp">
+      <Filter>Source Files\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="scenePolygon.cpp">
+      <Filter>Source Files\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="routeEditor.cpp">
+      <Filter>Source Files\ObjectEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="tacticalGraphEditor.cpp">
+      <Filter>Source Files\ObjectEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="waypointCreator.cpp">
+      <Filter>Source Files\ObjectCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="wayPointEditor.cpp">
+      <Filter>Source Files\ObjectEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="polygonEditor.cpp">
+      <Filter>Source Files\ObjectEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sceneFineArrow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sceneFineArrow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="doubleArrowCreator.cpp">
+      <Filter>Source Files\ObjectCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="plotUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneDoubleArrow.cpp">
+      <Filter>Source Files\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneObjectRegistration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gatheringPlaceCreator.cpp">
+      <Filter>Source Files\ObjectCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="attackArrowCreator.cpp">
+      <Filter>Source Files\ObjectCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneAttackArrow.cpp">
+      <Filter>Source Files\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneGatheringPlace.cpp">
+      <Filter>Source Files\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="straightArrowCreator.cpp">
+      <Filter>Source Files\ObjectCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneStraightArrow.cpp">
+      <Filter>Source Files\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sceneStraightArrow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sceneStraightArrow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="polygonTypeCreator.cpp">
+      <Filter>Source Files\ObjectCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="lineStringTypeCreator.cpp">
+      <Filter>Source Files\ObjectCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyTrieTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="visualizerFactory.cpp">
+      <Filter>Source Files\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="mainModelVisualizer.cpp">
+      <Filter>Source Files\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="stateVisualizer.cpp">
+      <Filter>Source Files\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="indicateVisualizer.cpp">
+      <Filter>Source Files\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_indicateVisualizer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_indicateVisualizer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ribbonVisualizer.cpp">
+      <Filter>Source Files\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ribbonVisualizer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ribbonVisualizer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="sphereElectronicVisualizer.cpp">
+      <Filter>Source Files\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sphereElectronicVisualizer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sphereElectronicVisualizer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="halfSphereElectronicVisualizer.cpp">
+      <Filter>Source Files\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainModelVisualizer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainModelVisualizer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="satelliteOribtVisualizer.cpp">
+      <Filter>Source Files\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Ars\ArsBase.cpp">
+      <Filter>Source Files\Ars</Filter>
+    </ClCompile>
+    <ClCompile Include="Ars\ArsMath.cpp">
+      <Filter>Source Files\Ars</Filter>
+    </ClCompile>
+    <ClCompile Include="Ars\ArsMatrix3.cpp">
+      <Filter>Source Files\Ars</Filter>
+    </ClCompile>
+    <ClCompile Include="Ars\ArsQuaternion.cpp">
+      <Filter>Source Files\Ars</Filter>
+    </ClCompile>
+    <ClCompile Include="Ars\ArsVec3.cpp">
+      <Filter>Source Files\Ars</Filter>
+    </ClCompile>
+    <ClCompile Include="Ars\ArsVec2.cpp">
+      <Filter>Source Files\Ars</Filter>
+    </ClCompile>
+    <ClCompile Include="Ars\ArsVec4.cpp">
+      <Filter>Source Files\Ars</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_satelliteOribtVisualizer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_satelliteOribtVisualizer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneRadioCommsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sceneRadioCommsManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sceneRadioCommsManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="radioCommsVisualizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_radioCommsVisualizer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_radioCommsVisualizer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="entityLevelDisplayManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_entityLevelDisplayManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_entityLevelDisplayManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="subjectionVisualizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_subjectionVisualizer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_subjectionVisualizer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="trackVisualizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_trackVisualizer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_trackVisualizer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="guidanceVisualizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_guidanceVisualizer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_guidanceVisualizer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="routePlanVisualizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_routePlanVisualizer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_routePlanVisualizer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="placeNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyIG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ByyIG.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ByyIG.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ByyDisplay.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ByyDisplay.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyOsgWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ByyOsgWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ByyOsgWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ByyRenderer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ByyRenderer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyOsgEventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyEventProcessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyObserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ByyObserver.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ByyObserver.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyInputController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ByyInputController.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ByyInputController.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyEnvironment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ByyEnvironment.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ByyEnvironment.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyDisplaySignaler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ByyDisplaySignaler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ByyDisplaySignaler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyViewWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ByyChannel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ByyChannel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ByySelectionManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ByySelectionManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ByySelectionManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ByySceneEventProcessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyNodeBank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sensorVisualizer.cpp">
+      <Filter>Source Files\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sensorVisualizer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sensorVisualizer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyMeasureProcesser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ByyMeasureProcesser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ByyMeasureProcesser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyMeasureItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ByyMeasureItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ByyMeasureItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyLineMeasure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyPolygonMeasure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyEntityInfoEventProcessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ByyEntityInfoEventProcessor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ByyEntityInfoEventProcessor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyRangeOfVisibilityVisualizer.cpp">
+      <Filter>Source Files\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ByyRangeOfVisibilityVisualizer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ByyRangeOfVisibilityVisualizer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_stateVisualizer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_stateVisualizer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ByySceneDetect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ByySceneDetect.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ByySceneDetect.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="detectIndicateVisualizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_detectIndicateVisualizer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_detectIndicateVisualizer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyLogCanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ByyLogCanvas.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ByyLogCanvas.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyIntervisibilityLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyIntervisibilityFan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyEllipsoidArcModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScaleBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyArcCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ByyArcEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ByySceneArc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ByySceneArc.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ByySceneArc.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GridSetDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GridSetDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GridSetDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainShaderExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scene_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="earthManipulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snapshoot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="animationPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="altitudeCullingCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="textBrowser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="osgFileCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fltEntityVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clipPlaneCullCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="entityInfoWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phaseLineCreator.h">
+      <Filter>Header Files\ObjectCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="phaseLineEditor.h">
+      <Filter>Header Files\ObjectEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="circleEditor.h">
+      <Filter>Header Files\ObjectEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="ellipseEditor.h">
+      <Filter>Header Files\ObjectEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="polygonCreator.h">
+      <Filter>Header Files\ObjectCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="polygonEditor.h">
+      <Filter>Header Files\ObjectEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangleCreator.h">
+      <Filter>Header Files\ObjectCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="fineArrowCreator.h">
+      <Filter>Header Files\ObjectCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangleEditor.h">
+      <Filter>Header Files\ObjectEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="routeCreator.h">
+      <Filter>Header Files\ObjectCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="routeEditor.h">
+      <Filter>Header Files\ObjectEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="tacticalGraphEditor.h">
+      <Filter>Header Files\ObjectEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="wayPointEditor.h">
+      <Filter>Header Files\ObjectEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="doubleArrowCreator.h">
+      <Filter>Header Files\ObjectCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="plotUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneDoubleArrow.h">
+      <Filter>Header Files\SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneObjectRegistration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gatheringPlaceCreator.h">
+      <Filter>Header Files\ObjectCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="attackArrowCreator.h">
+      <Filter>Header Files\ObjectCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneAttackArrow.h">
+      <Filter>Header Files\SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneGatheringPlace.h">
+      <Filter>Header Files\SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="straightArrowCreator.h">
+      <Filter>Header Files\ObjectCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="polygonTypeCreator.h">
+      <Filter>Header Files\ObjectCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="lineStringTypeCreator.h">
+      <Filter>Header Files\ObjectCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="ByyTrieTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="visualizerFactory.h">
+      <Filter>Header Files\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="halfSphereElectronicVisualizer.h">
+      <Filter>Header Files\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Ars\ArsMath.h">
+      <Filter>Header Files\Ars</Filter>
+    </ClInclude>
+    <ClInclude Include="Ars\ArsMatrix3.h">
+      <Filter>Header Files\Ars</Filter>
+    </ClInclude>
+    <ClInclude Include="Ars\ArsQuaternion.h">
+      <Filter>Header Files\Ars</Filter>
+    </ClInclude>
+    <ClInclude Include="Ars\ArsVec3.h">
+      <Filter>Header Files\Ars</Filter>
+    </ClInclude>
+    <ClInclude Include="Ars\ArsBase.h">
+      <Filter>Header Files\Ars</Filter>
+    </ClInclude>
+    <ClInclude Include="Ars\ArsAsmMath.h">
+      <Filter>Header Files\Ars</Filter>
+    </ClInclude>
+    <ClInclude Include="Ars\ArsVec2.h">
+      <Filter>Header Files\Ars</Filter>
+    </ClInclude>
+    <ClInclude Include="Ars\ArsVec4.h">
+      <Filter>Header Files\Ars</Filter>
+    </ClInclude>
+    <ClInclude Include="placeNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ByyViewWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ByySceneEventProcessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ByyNodeBank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ByyPolygonMeasure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ByyIntervisibilityLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ByyIntervisibilityFan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ByyEllipsoidArcModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScaleBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ByyArcCreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ByyArcEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainShaderExtension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainShaderOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="sandBoxComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="annotationComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cameraAnimationComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sceneObjectManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="terrain.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="channelCompass.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="prop.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="terrainEffect.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utils.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="modelPlacer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="soundManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="entitySettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="audioSettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="stereoSettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tacticalGraphicsProcesser.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="observerSettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tacticalGraphicsCreator.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="circleCreator.h">
+      <Filter>Header Files\ObjectCreator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ellipseCreator.h">
+      <Filter>Header Files\ObjectCreator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pointSetCreator.h">
+      <Filter>Header Files\ObjectCreator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sceneCircle.h">
+      <Filter>Header Files\SceneObject</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sceneControlObject.h">
+      <Filter>Header Files\SceneObject</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sceneEllipse.h">
+      <Filter>Header Files\SceneObject</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sceneEntity.h">
+      <Filter>Header Files\SceneObject</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sceneObject.h">
+      <Filter>Header Files\SceneObject</Filter>
+    </CustomBuild>
+    <CustomBuild Include="scenePhaseLine.h">
+      <Filter>Header Files\SceneObject</Filter>
+    </CustomBuild>
+    <CustomBuild Include="scenePolygon.h">
+      <Filter>Header Files\SceneObject</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sceneRectangle.h">
+      <Filter>Header Files\SceneObject</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sceneWayPoint.h">
+      <Filter>Header Files\SceneObject</Filter>
+    </CustomBuild>
+    <CustomBuild Include="waypointCreator.h">
+      <Filter>Header Files\ObjectCreator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sceneRoute.h">
+      <Filter>Header Files\SceneObject</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sceneFineArrow.h">
+      <Filter>Header Files\SceneObject</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sceneStraightArrow.h">
+      <Filter>Header Files\SceneObject</Filter>
+    </CustomBuild>
+    <CustomBuild Include="indicateVisualizer.h">
+      <Filter>Header Files\Visualizer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ribbonVisualizer.h">
+      <Filter>Header Files\Visualizer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sphereElectronicVisualizer.h">
+      <Filter>Header Files\Visualizer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainModelVisualizer.h">
+      <Filter>Header Files\Visualizer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="satelliteOribtVisualizer.h">
+      <Filter>Header Files\Visualizer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sceneRadioCommsManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="radioCommsVisualizer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="entityLevelDisplayManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="subjectionVisualizer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="trackVisualizer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="guidanceVisualizer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routePlanVisualizer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByyIG.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByyDisplay.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByyOsgWindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByyRenderer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByyOsgEventHandler.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByyEventProcessor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByyObserver.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByyInputController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByyEnvironment.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByyDisplaySignaler.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByyChannel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByySelectionManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sensorVisualizer.h">
+      <Filter>Header Files\Visualizer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByyMeasureProcesser.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByyMeasureItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByyLineMeasure.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByyEntityInfoEventProcessor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByyRangeOfVisibilityVisualizer.h">
+      <Filter>Header Files\Visualizer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="stateVisualizer.h">
+      <Filter>Header Files\Visualizer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByySceneDetect.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="detectIndicateVisualizer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByyLogCanvas.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ByySceneArc.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GridSetDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

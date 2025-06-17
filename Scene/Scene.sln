@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Scene", "Scene\Scene.vcxproj", "{70FEF469-3758-441A-A031-682A2B8A031E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70FEF469-3758-441A-A031-682A2B8A031E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{70FEF469-3758-441A-A031-682A2B8A031E}.Debug|Win32.Build.0 = Debug|Win32
+		{70FEF469-3758-441A-A031-682A2B8A031E}.Debug|x64.ActiveCfg = Debug|x64
+		{70FEF469-3758-441A-A031-682A2B8A031E}.Debug|x64.Build.0 = Debug|x64
+		{70FEF469-3758-441A-A031-682A2B8A031E}.Release|Win32.ActiveCfg = Release|Win32
+		{70FEF469-3758-441A-A031-682A2B8A031E}.Release|Win32.Build.0 = Release|Win32
+		{70FEF469-3758-441A-A031-682A2B8A031E}.Release|x64.ActiveCfg = Release|x64
+		{70FEF469-3758-441A-A031-682A2B8A031E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+#ifndef SCENEOBJECTREGISTRATION_H
+#define SCENEOBJECTREGISTRATION_H
+
+class ByyIG;
+
+void registerSceneObject(ByyIG& ig);
+
+#endif // SCENEOBJECTREGISTRATION_H

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ByyShowControlWidget</class>
+ <widget class="QWidget" name="ByyShowControlWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>113</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ByyShowControlWidget</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QCheckBox" name="ctrlObjCheckBox">
+     <property name="text">
+      <string>控制对象</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="ctrlObjLableCheckBox">
+     <property name="text">
+      <string>控制对象名称</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="entityCheckBox">
+     <property name="text">
+      <string>实体</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="entityLabelCheckBox">
+     <property name="text">
+      <string>实体标签</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="entityNameCheckBox">
+     <property name="text">
+      <string>实体名称</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="entityInfoCheckBox">
+     <property name="text">
+      <string>实体信息</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="electronicCheckBox">
+     <property name="text">
+      <string>电磁效果</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="ribbonCheckBox">
+     <property name="text">
+      <string>飞行轨迹</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="graticuleCheckBox">
+     <property name="text">
+      <string>经纬网格</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="satelliteOribtCheckBox">
+     <property name="text">
+      <string>卫星轨道</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="radioCommCheckBox">
+     <property name="text">
+      <string>通信状态</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="subjectionCheckBox">
+     <property name="text">
+      <string>指控关系</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="guidanceCheckBox">
+     <property name="text">
+      <string>目标照射</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="trackCheckBox">
+     <property name="text">
+      <string>跟踪状态</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="routePlanCheckBox">
+     <property name="text">
+      <string>航路规划</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

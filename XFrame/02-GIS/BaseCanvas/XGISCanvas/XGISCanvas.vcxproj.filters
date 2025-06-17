@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{ab175de8-8a05-455f-8299-dc29b54fd026}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{34947aa3-a801-4def-a58b-d9853288b3cb}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="CustomDataDef">
+      <UniqueIdentifier>{25062960-d6c5-4d84-9949-21a632b71639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomDataDef\CustomMapTool">
+      <UniqueIdentifier>{cb668bcf-3aa1-44d5-840c-9144b1fe2a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomDataDef\CustomMapTool\海图属性检索工具">
+      <UniqueIdentifier>{a1cca5f5-1090-4a59-8d0e-c92cf4a68e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="蒙版绘图">
+      <UniqueIdentifier>{d26fde23-7656-4dc9-930e-3e8da53547ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomDataDef\JB-库">
+      <UniqueIdentifier>{bc25c3d4-3899-4bc9-985c-35ce860e1860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomDataDef\CustomMapTool\JB标绘工具">
+      <UniqueIdentifier>{cf2ae516-0734-49d6-b80e-75238f930e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomDataDef\CustomMapTool\地图量算工具">
+      <UniqueIdentifier>{e7fabacd-b41c-49e2-b663-99a1d287f5d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomDataDef\CustomMapTool\矢量标绘工具">
+      <UniqueIdentifier>{b4592b3a-b08d-4693-a61e-8eb11c44b65b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XGISCanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_XGISCanvas.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_XGISCanvas.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="XGISVLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qgsmeasuredialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qgsmeasuredialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qgsmeasuretool.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qgsmeasuretool.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qgsdisplayangle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qgsdisplayangle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qgsmaptoolmeasureangle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qgsmaptoolmeasureangle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS-Extend\Qt-JB\XJBInfoManager.cpp">
+      <Filter>CustomDataDef\JB-库</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS-Extend\Qt-JB\XJBDrawHelper.cpp">
+      <Filter>CustomDataDef\JB-库</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_XJBWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_XJBWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS-Extend\Qt-JB\XJBWidget.cpp">
+      <Filter>CustomDataDef\JB-库</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS-Extend\Qt-JB\XJBItemWnd.cpp">
+      <Filter>CustomDataDef\JB-库</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS-Extend\XChartAttSearchMapTool.cpp">
+      <Filter>CustomDataDef\CustomMapTool\海图属性检索工具</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_XChartAttSearchMapTool.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_XChartAttSearchMapTool.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS-Extend\XChartSearchResWnd.cpp">
+      <Filter>CustomDataDef\CustomMapTool\海图属性检索工具</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_XChartSearchResWnd.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_XChartSearchResWnd.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS-Extend\绘图板\XDrawRubber.cpp">
+      <Filter>蒙版绘图</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_XDrawRubber.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_XDrawRubber.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS-Extend\绘图板\XShapeDef.cpp">
+      <Filter>蒙版绘图</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS-Extend\qgsdisplayangle.cpp">
+      <Filter>CustomDataDef\CustomMapTool\地图量算工具</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS-Extend\qgsmaptoolmeasureangle.cpp">
+      <Filter>CustomDataDef\CustomMapTool\地图量算工具</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS-Extend\qgsmeasuredialog.cpp">
+      <Filter>CustomDataDef\CustomMapTool\地图量算工具</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS-Extend\qgsmeasuretool.cpp">
+      <Filter>CustomDataDef\CustomMapTool\地图量算工具</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS-Extend\XJBEditMapTool.cpp">
+      <Filter>CustomDataDef\CustomMapTool\JB标绘工具</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_XJBEditMapTool.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_XJBEditMapTool.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS-Extend\plotUtils.cpp">
+      <Filter>CustomDataDef\JB-库</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_XEditVItemMapTool.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_XEditVItemMapTool.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS-Extend\XEditVItemMapTool.cpp">
+      <Filter>CustomDataDef\CustomMapTool\矢量标绘工具</Filter>
+    </ClCompile>
+    <ClCompile Include="XShapeDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\include\GISCanvas\XGISCanvas.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GIS-Extend\Qt-JB\XJBWidget.h">
+      <Filter>CustomDataDef\JB-库</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GIS-Extend\XChartAttSearchMapTool.h">
+      <Filter>CustomDataDef\CustomMapTool\海图属性检索工具</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GIS-Extend\XChartSearchResWnd.h">
+      <Filter>CustomDataDef\CustomMapTool\海图属性检索工具</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GIS-Extend\绘图板\XDrawRubber.h">
+      <Filter>蒙版绘图</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GIS-Extend\qgsdisplayangle.h">
+      <Filter>CustomDataDef\CustomMapTool\地图量算工具</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GIS-Extend\qgsmaptoolmeasureangle.h">
+      <Filter>CustomDataDef\CustomMapTool\地图量算工具</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GIS-Extend\qgsmeasuredialog.h">
+      <Filter>CustomDataDef\CustomMapTool\地图量算工具</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GIS-Extend\qgsmeasuretool.h">
+      <Filter>CustomDataDef\CustomMapTool\地图量算工具</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GIS-Extend\XJBEditMapTool.h">
+      <Filter>CustomDataDef\CustomMapTool\JB标绘工具</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GIS-Extend\XEditVItemMapTool.h">
+      <Filter>CustomDataDef\CustomMapTool\矢量标绘工具</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\include\GISCanvas\XGISCanvasDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\GISCanvas\XGISVLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS-Extend\Qt-JB\XJBInfoManager.h">
+      <Filter>CustomDataDef\JB-库</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS-Extend\Qt-JB\XJBDrawHelper.h">
+      <Filter>CustomDataDef\JB-库</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS-Extend\Qt-JB\JBDef.h">
+      <Filter>CustomDataDef\JB-库</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS-Extend\Qt-JB\XJBItemWnd.h">
+      <Filter>CustomDataDef\JB-库</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\GISCanvas\GIS-Extend\XShapeDef.h">
+      <Filter>蒙版绘图</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS-Extend\plotUtils.h">
+      <Filter>CustomDataDef\JB-库</Filter>
+    </ClInclude>
+    <ClInclude Include="XShapeDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
