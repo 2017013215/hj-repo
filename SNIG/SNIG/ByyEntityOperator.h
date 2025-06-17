@@ -1,9 +1,9 @@
-#ifndef BYYENTITYOPERATOR_H
-#define BYYENTITYOPERATOR_H
+#pragma once
 
 #include <QObject>
 
 class ByyApp;
+class EntityControlPanel;  // 前向声明
 
 class ByyEntityOperator : public QObject ,public ByyEventProcessor
 {
@@ -63,6 +63,8 @@ protected slots:
 	//控制
 	void onControlEntity();
 
+	void onShowControlPanel();
+
 private:
 	ByyEntityOperator(QObject *parent=0);
 
@@ -110,6 +112,8 @@ private:
 	QAction *myMissileTraftAction; //导弹目标跟踪
 	QAction *mySensorAlarmAction; //状态裁决
 	QAction *myJudgementAction; //状态裁决
-};
 
-#endif // BYYENTITYOPERATOR_H
+	QAction* myControlPanelAction;
+
+	friend class EntityControlPanel;
+};

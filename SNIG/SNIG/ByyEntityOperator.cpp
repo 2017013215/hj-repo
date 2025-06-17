@@ -23,6 +23,7 @@
 #include "BTFile/behaviortreeeditwdg.h"
 #include "Verdict.h"
 #include "../snigHdose/simuController.h"
+#include "EntityControlPanel.h"
 #define SETWINDOW_AUTODEL(xx) xx->setWindowFlags(Qt::Window);xx->setAttribute(Qt::WA_DeleteOnClose);
 
 ByyEntityOperator::ByyEntityOperator(QObject *parent)
@@ -70,6 +71,9 @@ ByyEntityOperator::ByyEntityOperator(QObject *parent)
 	myVerdictMenu->addAction(mySensorAlarmAction);
 	myVerdictMenu->addAction(myJudgementAction);
 
+	myControlPanelAction = new QAction(QString::fromLocal8Bit("实体指控"), this);
+	connect(myControlPanelAction, SIGNAL(triggered()), this, SLOT(onShowControlPanel()));
+
 	connect(myAttachAction,SIGNAL(triggered()),SLOT(onAttach()));
 	connect(myEditAction,SIGNAL(triggered()),SLOT(onEdit()));
 	connect(myTaskAction,SIGNAL(triggered()),SLOT(onShowEditTask()));
@@ -97,8 +101,6 @@ ByyEntityOperator::ByyEntityOperator(QObject *parent)
 	connect(myJudgementAction,		SIGNAL(triggered()),SLOT(onJudgementAction()));
 
 	ByyIG::IGInstance()->inputController().addEventProcessor(this);
-
-	myMovingEty=false;
 }
 
 ByyEntityOperator::~ByyEntityOperator()
@@ -148,6 +150,7 @@ void ByyEntityOperator::showContextMenu()
 		menu->addSeparator();
 		menu->addAction(mySensorShowAction);
 		menu->addAction(mySensorHideAction);
+		menu->addAction(myControlPanelAction);
 		//menu->addSeparator();
 		//menu->addMenu(myVerdictMenu);
 	}
@@ -502,34 +505,39 @@ void ByyEntityOperator::updateMovement() {
     bool down  = mKeyS;  // 后/南
     bool left  = mKeyA;  // 左/西
     bool right = mKeyD;  // 右/东
-	int direction = -1;
-    // 8方向优先级判断
-    if (up && !down) {
-        if (left && !right)       direction = 315;  // 西北
-        else if (right && !left)  direction = 45;  // 东北
-        else                      direction = 0;   // 北
-    } 
-    else if (down && !up) {
-        if (left && !right)       direction = 225;  // 西南
-        else if (right && !left)  direction = 135;  // 东南
-        else                      direction = 180;   // 南
-    } 
-    else if (left && !right)      direction = 270;   // 西
-    else if (right && !left)      direction = 90;   // 东
-	qDebug() << direction;
-	if(direction == -1) return;
-	//发送事件
-	myControlEty = getSelectionEntity();
-	string EntityName = myControlEty->name().toStdString();
-	ByySimuController *simctl = new ByySimuController(myApp->core(),myApp->hdose());
-	simctl->sendTargetControlEvt(EntityName,direction);
+    int direction = -1;
+    // 优先判断8方向组合
+    if (up && right && !down && !left) {
+        direction = 45;   // 东北
+    } else if (up && left && !down && !right) {
+        direction = 315;  // 西北
+    } else if (down && right && !up && !left) {
+        direction = 135;  // 东南
+    } else if (down && left && !up && !right) {
+        direction = 225;  // 西南
+    } else if (up && !down && !left && !right) {
+        direction = 0;    // 北
+    } else if (down && !up && !left && !right) {
+        direction = 180;  // 南
+    } else if (left && !right && !up && !down) {
+        direction = 270;  // 西
+    } else if (right && !left && !up && !down) {
+        direction = 90;   // 东
+    }
+    qDebug() << direction;
+    if(direction == -1) return;
+    //发送事件
+    myControlEty = getSelectionEntity();
+    string EntityName = myControlEty->name().toStdString();
+    ByySimuController *simctl = new ByySimuController(myApp->core(),myApp->hdose());
+    simctl->sendTargetControlEvt(EntityName,direction);
 }
 
 bool ByyEntityOperator::processOsgEvent(const osgGA::GUIEventAdapter& ea,osgGA::GUIActionAdapter& aa)
 {
 	if(getSelectionEntity()!=0)
 	{
-		if(ea.getEventType()==ea.KEYDOWN)			// 处理按键按下
+		if(ea.getEventType()==ea.KEYDOWN)            // 处理按键按下
 		{
 			if(ea.getKey()=='m' || ea.getKey()=='M')
 			{
@@ -556,25 +564,8 @@ bool ByyEntityOperator::processOsgEvent(const osgGA::GUIEventAdapter& ea,osgGA::
 				onRemove();
 				return true;
 			}
-			 // 新增 WASD 方向控制
-			switch(tolower(ea.getKey())) {  // 统一转为小写判断
-				case 'w': mKeyW = true; updateMovement(); break;
-				case 'a': mKeyA = true; updateMovement(); break;
-				case 's': mKeyS = true; updateMovement(); break;
-				case 'd': mKeyD = true; updateMovement(); break;
-			}
-			
-		}
-		else if(ea.getEventType() == ea.KEYUP) {			// 处理按键释放
-			switch(tolower(ea.getKey())) {
-				case 'w': mKeyW = false; updateMovement(); break;
-				case 'a': mKeyA = false; updateMovement(); break;
-				case 's': mKeyS = false; updateMovement(); break;
-				case 'd': mKeyD = false; updateMovement(); break;
-			}
 		}
 	}
-
 
 	if(!myMovingEty)
 		return false;
@@ -607,4 +598,12 @@ bool ByyEntityOperator::processOsgEvent(const osgGA::GUIEventAdapter& ea,osgGA::
 		return true;
 	}
 	return false;
+}
+
+void ByyEntityOperator::onShowControlPanel()
+{
+	EntityControlPanel* ctrlPanel = new EntityControlPanel(this);
+	ctrlPanel->setAttribute(Qt::WA_DeleteOnClose);
+	ctrlPanel->setWindowTitle(QString::fromLocal8Bit("实体指控操作面板"));
+	ctrlPanel->show();
 }
