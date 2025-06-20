@@ -1,0 +1,16 @@
+{
+    "files.encoding": "gb2312",
+    "files.autoGuessEncoding": false,
+    "[cpp]": {
+        "files.encoding": "gb2312"
+    },
+    "[c]": {
+        "files.encoding": "gb2312"
+    },
+    "[h]": {
+        "files.encoding": "gb2312"
+    },
+    "[hpp]": {
+        "files.encoding": "gb2312"
+    }
+} 

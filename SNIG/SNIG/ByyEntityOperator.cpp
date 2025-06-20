@@ -150,7 +150,6 @@ void ByyEntityOperator::showContextMenu()
 		menu->addSeparator();
 		menu->addAction(mySensorShowAction);
 		menu->addAction(mySensorHideAction);
-		menu->addAction(myControlPanelAction);
 		//menu->addSeparator();
 		//menu->addMenu(myVerdictMenu);
 	}
@@ -173,6 +172,7 @@ void ByyEntityOperator::showContextMenu()
 		menu->addAction(mySensorHideAction);
 		menu->addSeparator();
 		menu->addMenu(myVerdictMenu);
+		menu->addAction(myControlPanelAction);
 		if(isAircraft(entObj))
 		{
 			myAircraftTraftAction->setVisible(true);
@@ -525,10 +525,9 @@ void ByyEntityOperator::updateMovement() {
         direction = 90;   // 东
     }
     qDebug() << direction;
-    if(direction == -1) return;
     //发送事件
     myControlEty = getSelectionEntity();
-    string EntityName = myControlEty->name().toStdString();
+    string EntityName = myControlEty->name().toLocal8Bit().constData();
     ByySimuController *simctl = new ByySimuController(myApp->core(),myApp->hdose());
     simctl->sendTargetControlEvt(EntityName,direction);
 }
